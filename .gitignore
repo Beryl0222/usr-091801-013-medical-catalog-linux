@@ -10,3 +10,6 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行时持久化数据（历史脱敏账单 data/historical_bills.json 保留入库）
+data/registry.json

@@ -1,0 +1,98 @@
+[
+  {
+    "bill_id": "BILL-2026-0001",
+    "service_date": "2026-02-11",
+    "provider_province": "SH",
+    "insured_province": "SH",
+    "case_summary": "上海参保人本地白内障手术，捆绑收费行",
+    "lines": [
+      {"province_code": "SH-YK001", "quantity": 1, "amount": "3400.00"},
+      {"province_code": "SH-JY001", "quantity": 2, "amount": "60.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0002",
+    "service_date": "2026-03-05",
+    "provider_province": "SH",
+    "insured_province": "ZJ",
+    "case_summary": "浙江参保人在上海住院，跨省异地就医：全麻捆绑+阑尾切除",
+    "lines": [
+      {"province_code": "SH-MZ001", "quantity": 1, "amount": "980.00"},
+      {"province_code": "SH-WK002", "quantity": 1, "amount": "1180.00"},
+      {"province_code": "SH-NK001", "quantity": 2, "amount": "48.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0003",
+    "service_date": "2026-04-18",
+    "provider_province": "ZJ",
+    "insured_province": "ZJ",
+    "case_summary": "浙江本地剖宫产，麻醉与护理按拆细项目收费",
+    "lines": [
+      {"province_code": "ZJ-FC002", "quantity": 1, "amount": "3100.00"},
+      {"province_code": "ZJ-MZ001", "quantity": 1, "amount": "300.00"},
+      {"province_code": "ZJ-MZ002", "quantity": 1, "amount": "560.00"},
+      {"province_code": "ZJ-HL001", "quantity": 3, "amount": "54.00"},
+      {"province_code": "ZJ-HL002", "quantity": 3, "amount": "60.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0004",
+    "service_date": "2026-05-09",
+    "provider_province": "ZJ",
+    "insured_province": "SH",
+    "case_summary": "上海参保人在浙江眼科就诊，跨省异地就医",
+    "lines": [
+      {"province_code": "ZJ-YK001", "quantity": 1, "amount": "2300.00"},
+      {"province_code": "ZJ-YK002", "quantity": 1, "amount": "1150.00"},
+      {"province_code": "ZJ-JY001", "quantity": 1, "amount": "19.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0005",
+    "service_date": "2026-06-20",
+    "provider_province": "SH",
+    "insured_province": "SH",
+    "case_summary": "含一条上海地方特色项目，国家目录尚无对应项目",
+    "lines": [
+      {"province_code": "SH-ZY001", "quantity": 5, "amount": "210.00"},
+      {"province_code": "SH-TZ001", "quantity": 3, "amount": "198.00"},
+      {"province_code": "SH-BL001", "quantity": 1, "amount": "160.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0006",
+    "service_date": "2026-07-02",
+    "provider_province": "ZJ",
+    "insured_province": "ZJ",
+    "case_summary": "造口护理尚未与国家护理类项目衔接，整单进入人工队列",
+    "lines": [
+      {"province_code": "ZJ-KF002", "quantity": 4, "amount": "192.00"},
+      {"province_code": "ZJ-HL003", "quantity": 2, "amount": "90.00"},
+      {"province_code": "ZJ-YX001", "quantity": 1, "amount": "210.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2026-0007",
+    "service_date": "2026-08-14",
+    "provider_province": "SH",
+    "insured_province": "ZJ",
+    "case_summary": "儿科跨省门诊，价格存在偏差用于支付差异分析",
+    "lines": [
+      {"province_code": "SH-EK001", "quantity": 5, "amount": "160.00"},
+      {"province_code": "SH-KF001", "quantity": 2, "amount": "120.00"},
+      {"province_code": "SH-YX002", "quantity": 1, "amount": "430.00"}
+    ]
+  },
+  {
+    "bill_id": "BILL-2025-0008",
+    "service_date": "2025-12-20",
+    "provider_province": "ZJ",
+    "insured_province": "ZJ",
+    "case_summary": "基线生效前的历史账单：当时无映射版本，必须按当时状态处理",
+    "lines": [
+      {"province_code": "ZJ-FC001", "quantity": 1, "amount": "1780.00"},
+      {"province_code": "ZJ-BL002", "quantity": 1, "amount": "290.00"}
+    ]
+  }
+]

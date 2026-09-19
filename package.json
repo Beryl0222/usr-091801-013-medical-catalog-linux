@@ -2,7 +2,8 @@
   "name": "service-baseline",
   "private": true,
   "scripts": {
-    "test": "node test_service.js"
+    "test": "node test_service.js",
+    "check": "python3 service.py --check",
+    "shadow": "python3 service.py --shadow"
   }
 }
-
